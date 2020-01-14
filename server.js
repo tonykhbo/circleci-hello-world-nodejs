@@ -23,6 +23,6 @@ get_hash(function(e, GIT_COMMIT_HASH, stder) {
         .replace(/{hello}/g, hello())
       );
     }
-  }).listen(process.env.PORT || 5000);
+  }).listen(process.env.PORT || 8080);
 });
-console.log('Listening on: http://localhost:' + (process.env.PORT || 5000));
+console.log('Listening on: http://localhost:' + (process.env.PORT || 8080));
